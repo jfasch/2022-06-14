@@ -13,3 +13,4 @@ endif()
 
 ADD_SUBDIRECTORY(googletest)
 ADD_SUBDIRECTORY(exercises)
+ADD_SUBDIRECTORY(livehacking)
