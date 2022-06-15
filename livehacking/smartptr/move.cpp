@@ -52,7 +52,7 @@ class HoldsA___STD___String
 {
 public:
     HoldsA___STD___String(string&& s)
-    : _s(std::move(s)) {}
+    : _s(std::move(s)) {}    // <--- CAREFUL! move!
 
     const string& content() const { return _s; }
 

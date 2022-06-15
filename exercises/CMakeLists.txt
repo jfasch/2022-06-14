@@ -11,3 +11,5 @@ ADD_EXECUTABLE(
 
 )
 TARGET_LINK_LIBRARIES(exercises-suite gtest_main)
+
+ADD_EXECUTABLE(weakref weakref.cpp)
